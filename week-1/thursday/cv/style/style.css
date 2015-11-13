@@ -13,14 +13,16 @@ body {
 
 a {
   color: #EF233C;
+  text-decoration: none;
 }
 
 a:hover {
   color:#8D99AE;
+  text-decoration: none;
 }
 
 header {
-  background-image: url(img.jpg);
+  background-image:url(../img/img.jpg);
   background-position: center center;
   background-size: cover;
   background-blend-mode: lighten;
@@ -72,6 +74,9 @@ blockquote + section {
 .sec1 {
   font-style: italic;
   font-size: 1.3em;
+  border-top: 4px solid;
+  border-top-color: #EDF2F4;
+  border-top-width: think;
 }
 
 h2 {
@@ -89,5 +94,11 @@ h3 {
 }
 
 p {
+  font: 1.2;
   line-height: 1.5;
+  font-style: normal;
+}
+
+.fox {
+  text-align: center;
 }
