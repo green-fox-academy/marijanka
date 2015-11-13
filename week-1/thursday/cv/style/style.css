@@ -34,6 +34,8 @@ header {
   padding-left: 10px;
   padding-top: 100px;
   padding-right: 500px;
+  border-bottom: 8px solid;
+  border-color: #EDF2F4;
 }
 
 h1 {
@@ -71,14 +73,6 @@ blockquote + section {
    border: none;
 }
 
-.sec1 {
-  font-style: italic;
-  font-size: 1.3em;
-  border-top: 4px solid;
-  border-top-color: #EDF2F4;
-  border-top-width: think;
-}
-
 h2 {
    font-family: 'Roboto Slab';
    color: #EDF2F4;
@@ -99,6 +93,119 @@ p {
   font-style: normal;
 }
 
+.sec {
+  border-top: 100px;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+
 .fox {
   text-align: center;
+}
+
+.menu_opener:checked ~ .link_one {
+  background-image: url(fb.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 10px 5px;  /* equivalent to 'top left' */
+  background-size: 50px 37px;
+  top: 665px;
+  left: 160px;
+  border-style: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #F8F8FF;
+}
+
+.link_one:hover{
+  background-image: url(fb.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 5px 5px;  /* equivalent to 'top left' */
+}
+
+  /*invisible*/
+.menu_opener:checked ~ .link_two {
+  background-image: url(git.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 10px 5px;  /* equivalent to 'top left' */
+  background-size: 50px 37px;
+   top: 715px;
+   left: 160px;
+   border-style: none;
+   cursor: pointer;
+   color: #F8F8FF;
+}
+
+.link_two:hover {
+  background-image: url(git.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 10px 5px;  /* equivalent to 'top left' */
+  background-size: 50px 37px;
+}
+
+  /*transparent*/
+.menu_opener:checked ~ .link_three {
+  background-image: url(gmail.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 10px 5px;  /* equivalent to 'top left' */
+  background-size: 50px 37px;
+  top: 765px;
+  left: 160px;
+  border-style: none;
+  cursor: pointer;
+  color: #F8F8FF;
+}
+
+.menu_opener {
+  display: none;
+}
+
+.menu_opener_label {
+  background-image: url(sn.png); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat;  /* make the background image appear only once */
+  background-position: 5px 5px;  /* equivalent to 'top left' */
+  background: #012840;
+  text-align: center;
+  vertical-align: middle;
+  color: #F2DEA2;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 120px;
+  height: 70px;
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 600px;
+  left: 150px;
+  z-index: 10;
+}
+
+.menu_opener_label:before {
+  position: absolute;
+  color: #F8F8FF;
+  top: 10px;
+  left: 35px;
+/*	  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;*/
+}
+
+/*linkek pozíciója megnyitás előtt*/
+.link_general {
+
+  width: 100px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 615px;
+  left: 160px;
+  background: #313743;
+/*	  z-index: 15;
+*/-webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
