@@ -1,0 +1,175 @@
+body {
+  background-color: #f6f6f6;
+  color: #252525;
+  display: flex;
+  font-family: sans-serif;
+  margin: 0;
+  margin-top: -1px;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #aaa;
+  font-family: serif;
+  font-weight: normal;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 28.8px;
+}
+
+.main-container {
+  order:1;
+  width: 100%;
+}
+
+.main-sidebar {
+  order: 0;
+  width: 176px;
+  flex: 0 0 auto;
+  }
+
+.main-header {
+  background: none;
+  height: 80px;
+  position: relative;
+}
+
+.main-header ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header li {
+  list-style: none;
+}
+
+.main-header li+li {
+  border-left: 1px solid #a7d7f9;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.main-header nav, .search {
+  position: absolute;
+}
+
+.user-menu, .talk-menu, .edit-menu {
+  color: #0645ad;
+}
+
+.user-menu {
+  right: 0;
+  top:0;
+}
+
+.talk-menu {
+  bottom: 0;
+  left: 0;
+}
+
+.edit-menu {
+  bottom:0;
+  right: 300px;
+}
+
+.search {
+  bottom: 0;
+  right: 0;
+}
+
+.search input {
+  border: 2px inset;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 1px;
+  width: 300px;
+}
+
+input:hover {
+  box-shadow: inset 0 0 0 2px #347bff;
+  border-color: #347bff;
+}
+
+.main-content {
+  background: #ffffff;
+  border: 1px solid #a7d7f9;
+  border-right: 0;
+  font-size: 0.875em;
+  line-height: 1.6;
+  padding: 16px;
+}
+
+.biography {
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  float: right;
+  margin: 6px 0 12px 12px;
+  padding: 25px;
+  width: 270px;
+}
+
+.main-footer {
+  height: 150px;
+}
+
+.logo {
+  background: url(../img/logo.png);
+  color: rgba(0, 0, 0, 0.0);
+  display: block;
+  height: 155px;
+  width: 135px;
+  margin: 6px auto 0;
+}
+
+.wiki_logo {
+  height: 140px;
+  width: 140px;
+}
+
+.main-sidebar nav {
+  color: #0645ad;
+  margin-left: 11.2px;
+  margin-right: 9.6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 0.75em;
+  line-height: 1.125em;
+}
+
+h3{
+  margin: 0;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.side-bar-nav {
+ top: 270px;
+}
+
+.main-sidebar li {
+  list-style: none;
+  padding: 3px;
+}
+
+.main-sidebar-options {
+  padding-top: 16px;
+  margin: 0;
+}
+
+.main-sidebar-ul {
+ margin-left: 20px;
+}
+
+.main-sidebar-main-ul {
+  margin: 8px;
+}

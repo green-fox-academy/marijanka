@@ -1,8 +1,15 @@
 body {
-background-color: #f6f6f6;
-display: flex;
-margin: 0;
-min-height: 100vh;
+  background-color: #f6f6f6;
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  margin-top: -1px;
+  background-color: #ffffff;
+  color: #252525;
+}
+
+.main {
+  font-family: sans-serif;
 }
 
 .main-container {
@@ -31,12 +38,14 @@ min-height: 100vh;
   list-style: none;
 }
 
-.main-header nav, .search {
-  position: absolute;
+.main-header li+li {
+  border-left: 1px solid black;
+  margin-left: 5px;
+  padding-left: 5px;
 }
 
-.main {
-  font-family: sans-serif;
+.main-header nav, .search {
+  position: absolute;
 }
 
 .user-menu, .talk-menu, .edit-menu {
@@ -44,8 +53,8 @@ min-height: 100vh;
 }
 
 .user-menu {
-  top:0;
   right: 0;
+  top:0;
 }
 
 .talk-menu {
@@ -68,10 +77,10 @@ min-height: 100vh;
 }
 
 .biography {
-  background: #f9f9f9;
   border: 1px solid #aaa;
   box-sizing: border-box;
   float: right;
+  font-family: sans-serif;
   margin: 6px 0 12px 12px;
   padding: 25px;
   width: 270px;
@@ -83,14 +92,13 @@ min-height: 100vh;
 }
 
 .main-sidebar {
-  padding: 0.25em 0;
   font-size: 0.75em;
-  font-family: sans-serif;
+  padding: 0.25em 0;
 }
 
 .wiki_logo {
-  width: 160px;
   height: 160px;
+  width: 160px;
 }
 
 .main-sidebar li {
