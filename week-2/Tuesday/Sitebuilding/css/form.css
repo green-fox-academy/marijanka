@@ -1,5 +1,13 @@
+.main-content::after {
+  clear: both;
+  content: "";
+  display:block;
+}
+
 .main-content-form {
+  float:left;
   font-size: 14px;
+  margin-right: 100px;
 }
 
 .main-content-form p {
@@ -12,14 +20,15 @@ h1 {
 
 .main-content-form input {
   border: 1px solid #cccccc;
+  border-radius: 2px;
   box-sizing: border-box;
+  height: 30px;
   margin-bottom: 15px;
   padding: .3em .3em .3em .6em;
-  height: 30px;
   width: 290px;
 }
 
-input:hover {
+form input:focus {
   box-shadow: inset 0 0 0 2px #347bff;
   border-color: #347bff;
 }
@@ -37,7 +46,6 @@ input:hover {
   font-style: italic;
 }
 
-
 button {
 background: #00af89  ;
 border: 1px solid #00af89  ;
@@ -53,4 +61,12 @@ width: 290px;
 
 button:hover {
 background: #008c6d  ;
+}
+
+.benefits-container {
+  float:left;
+}
+
+.main-footer {
+  clear: both;
 }
