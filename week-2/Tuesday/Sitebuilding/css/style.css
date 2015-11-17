@@ -44,7 +44,12 @@ h1 {
 }
 
 .main-header li {
+  color: #0645ad;
+  cursor: pointer;
+  font-size: 0.8em;
   list-style: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .main-header li+li {
