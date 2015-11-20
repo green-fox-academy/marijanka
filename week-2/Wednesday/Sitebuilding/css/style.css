@@ -66,15 +66,7 @@ input[type="search"]::-webkit-search-cancel-button {
   cursor: pointer;
   font-size: 12px;
   list-style: none;
-/*  padding-left: 0.5em;
-  padding-right: 0.5em;*/
 }
-
-/*.main-header li+li {
-  border-left: 1px solid #a7d7f9;
-  margin-left: 5px;
-  padding-left: 5px;
-}*/
 
 .main-header nav, .search {
   position: absolute;
@@ -193,6 +185,8 @@ span {
   width: 188px;
 }
 
+
+
 .main-footer {
   height: 150px;
 }
@@ -209,6 +203,10 @@ span {
 .wiki_logo {
   height: 140px;
   width: 140px;
+}
+
+.blue-list {
+  margin: 0.3em 0 0 1.6em;
 }
 
 .main-sidebar nav {
