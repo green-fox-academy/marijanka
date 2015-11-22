@@ -53,9 +53,9 @@ figcaption {
 }
 
 .main-sidebar {
+  flex: 0 0 auto;
   order: 0;
   width: 176px;
-  flex: 0 0 auto;
   }
 
 .main-header {
@@ -120,8 +120,8 @@ span {
 }
 
 .tab .active-tab a {
-  border-bottom: 1px solid #fff;
   background: white;
+  border-bottom: 1px solid #fff;
 }
 
 .search {
@@ -193,7 +193,6 @@ span {
 .biography figcaption {
   text-align: center;
 }
-
 
 .biography h3{
   margin: 0;
@@ -293,21 +292,18 @@ span {
   margin: 0.3em 0 0 1.6em;
 }
 
-.last {
+.last-list {
   padding-left: 30px;
 }
 
 .main-footer {
+  font-size: 11.2px;
   padding: 20px;
 }
 
 .footer-links {
   display: flex;
   justify-content: space-between;
-}
-
-.main-footer {
-  font-size: 11.2px;
 }
 
 .main-footer ul {
@@ -339,12 +335,12 @@ span {
 
 .main-sidebar nav {
   color: #0645ad;
-  margin-left: 11.2px;
-  margin-right: 9.6px;
-  padding-top: 4px;
-  padding-bottom: 4px;
   font-size: 0.75em;
   line-height: 1.125em;
+  margin-left: 11.2px;
+  margin-right: 9.6px;
+  padding-bottom: 4px;
+  padding-top: 4px;
 }
 
 .main-sidebar h3{
@@ -353,8 +349,6 @@ span {
   font-weight: normal;
   margin: 0;
   padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 3px;
 }
 
 ul {
