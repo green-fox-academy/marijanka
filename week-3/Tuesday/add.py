@@ -1,6 +1,4 @@
 
-
-
 def add(a, b, res = None):
     if res is None:
         res = []

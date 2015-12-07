@@ -1,8 +1,8 @@
-#def greet(name):
-#    return 'Hello,' + name
+def greet(name):
+    return 'Hello,' + name
 
-#result = greet("niohfi")
-#print(result)
+result = greet("niohfi")
+print(result)
 
 g = []
 

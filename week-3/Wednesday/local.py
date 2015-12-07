@@ -1,5 +1,5 @@
-# def make_account():
-#     return ('balance': 0)
+def make_account():
+    return ('balance': 0)
 
 def deposit(account, amount):
     account['balance'] += amount

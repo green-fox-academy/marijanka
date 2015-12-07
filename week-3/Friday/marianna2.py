@@ -11,9 +11,7 @@ def long_words(list):
 
 def is_palindrom(splitted):
     check_list = []
-    list_len = len(splitted)
-    for item in splitted:
-        word = item
+    for word in splitted:
         word_len = len(word)
         for i in range(word_len - 2):
             for j in range(i + 3, word_len + 1):
