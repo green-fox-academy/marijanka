@@ -6,7 +6,7 @@ img {
   height: auto;
   width: 100%;
 }
-/*ghf*/
+
 article {
   margin-left:auto;
   margin-right: auto;
@@ -34,7 +34,7 @@ h1, h2 {
   text-align: center;
 }
 
-p { 
+p {
   color:#444;
   font-family: Merriweather;
   line-height: 1.5;

@@ -7,8 +7,8 @@ body {
 }
 
 .wrap {
-  max-width: 80em;
   margin: 0 auto;
+  max-width: 80em;
 }
 
 a {
@@ -26,6 +26,8 @@ header {
   background-position: center center;
   background-size: cover;
   background-blend-mode: lighten;
+  border-bottom: 8px solid;
+  border-color: #EDF2F4;
   font: 1.5em/1 'Roborto Slab', serif;
   max-width: initial;
   min-height: 350px;
@@ -34,39 +36,36 @@ header {
   padding-left: 10px;
   padding-top: 100px;
   padding-right: 500px;
-  border-bottom: 8px solid;
-  border-color: #EDF2F4;
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
   color: #EDF2F4;
-  max-width: 700px;
-  margin: 200px auto 0;
-  letter-spacing: 0;
+  font-family: 'Roboto Slab', serif;
   font-weight: 400;
-  text-transform: uppercase;
   letter-spacing: 2px;
+  margin: 200px auto 0;
   margin-bottom: 2em;
+  max-width: 700px;
+  text-transform: uppercase;
 }
 
 blockquote {
+   background: #D90429;
+   border-bottom: 4px solid;
+   color: #EDF2F4;
    font-family: 'Roboto Slab';
    font-size: 3em;
    font: 1.5;
-   background: #D90429;
-   color: #EDF2F4;
    padding: 1em;
    position: relative;
-   border-bottom: 4px solid;
  }
 
  section, blockquote {
-   max-width: 700px;
-   margin: 0 auto;
-   padding: 1em 1em;
    border-top: 4px solid;
    border-top-color: #EDF2F4;
+   margin: 0 auto;
+   max-width: 700px;
+   padding: 1em 1em;
 }
 
 blockquote + section {
@@ -89,8 +88,8 @@ h3 {
 
 p {
   font: 1.2;
-  line-height: 1.5;
   font-style: normal;
+  line-height: 1.5;
 }
 
 .sec {
@@ -98,7 +97,6 @@ p {
   font-style: italic;
   font-size: 1.3em;
 }
-
 
 .fox {
   text-align: center;
@@ -132,11 +130,11 @@ p {
   background-repeat: no-repeat;  /* make the background image appear only once */
   background-position: 10px 5px;  /* equivalent to 'top left' */
   background-size: 50px 37px;
-   top: 715px;
-   left: 160px;
-   border-style: none;
-   cursor: pointer;
-   color: #F8F8FF;
+  top: 715px;
+  left: 160px;
+  border-style: none;
+  cursor: pointer;
+  color: #F8F8FF;
 }
 
 .link_two:hover {
