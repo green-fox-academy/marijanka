@@ -4,9 +4,6 @@ body {
 
 .container {
   background: aqua;
-  width: 500px;
-  height: 600px;
-  padding: 30px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -14,23 +11,25 @@ body {
   /*ua: flex-flow: row wrap; */
   justify-content: space-between;
   /*marginnal lehet fixalni*/
+  height: 600px;
+  padding: 30px;
+  width: 500px;
 }
-
 
 .box {
   background: yellow;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 20px;
-  box-sizing: border-box;
   border: 10px solid red;
-  order: 1;
+  box-sizing: border-box;
   flex-grow: 1;
+  font-size: 30px;
+  font-weight: bold;
+  order: 1;
+  padding: 20px;
 }
 
 .first {
-  order: 66;
+  flex-basis: 40%;
   flex-grow: 6;
   /*1es sulyozas és 6os lulyozás*/
-  flex-basis: 40%;
+  order: 66;
 }

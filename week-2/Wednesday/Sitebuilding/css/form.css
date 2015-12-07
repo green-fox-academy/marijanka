@@ -48,16 +48,16 @@ form input:focus {
 }
 
 button {
-background: #00af89  ;
-border: 1px solid #00af89  ;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius:4px;
-color: #fff;
-font-weight: bold;
-height: 30px;
-text-shadow: 0 1px rgba(0, 0, 0, 0.1);
-width: 290px;
+  background: #00af89  ;
+  border: 1px solid #00af89  ;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius:4px;
+  color: #fff;
+  font-weight: bold;
+  height: 30px;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  width: 290px;
 }
 
 button:hover {

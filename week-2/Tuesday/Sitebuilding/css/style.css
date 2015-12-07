@@ -26,9 +26,9 @@ h1 {
 }
 
 .main-sidebar {
+  flex: 0 0 auto;
   order: 0;
   width: 176px;
-  flex: 0 0 auto;
   }
 
 .main-header {
@@ -121,8 +121,8 @@ h1 {
   color: rgba(0, 0, 0, 0.0);
   display: block;
   height: 155px;
-  width: 135px;
   margin: 6px auto 0;
+  width: 135px;
 }
 
 .wiki_logo {
@@ -132,12 +132,12 @@ h1 {
 
 .main-sidebar nav {
   color: #0645ad;
+  font-size: 0.75em;
+  line-height: 1.125em;
   margin-left: 11.2px;
   margin-right: 9.6px;
   padding-top: 4px;
   padding-bottom: 4px;
-  font-size: 0.75em;
-  line-height: 1.125em;
 }
 
 h3{
