@@ -1,3 +1,4 @@
-import menu
 
-menu.main_main_menu()
+import main
+
+main.main_main_menu()
