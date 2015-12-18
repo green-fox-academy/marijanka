@@ -12,5 +12,4 @@ class TestMenu(unittest.TestCase):
         ])
         self.assertEqual(menu.invoke(1), True)
 
-
 unittest.main()

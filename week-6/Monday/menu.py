@@ -1,3 +1,11 @@
+from exception import PocsolyszeError
+
+class MenuItem:
+    def __init__(self, number, text, command):
+        self.number = number
+        self.text = text
+        self.command = command
+
 class Menu:
     def __init__(self, choices):
         self.choices = choices
@@ -13,20 +21,20 @@ class Menu:
             if item.number == number:
                 return item.command()
 
-class MenuItem:
-    def __init__(self, number, text, command):
-        self.number = number
-        self.text = text
-        self.command = command
-
 def exception(menu):
+    last_last_menu = None
+    last_menu = None
     new_menu = menu
-    print(new_menu)
     while True:
         try:
+            print(new_menu)
             number = input('Choose a number from the menu: ')
             if int(number) > len(menu.choices):
                 raise ValueError
+            last_last_menu = last_menu
+            last_menu = new_menu
             new_menu = new_menu.invoke(number)
         except ValueError:
             print('Wrong input')
+        except PocsolyszeError:
+            new_menu = last_last_menu
