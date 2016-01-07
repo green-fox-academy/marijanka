@@ -1,0 +1,2 @@
+class PocsolyszeError(Exception):
+    pass
