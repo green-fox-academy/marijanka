@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(to bottom, #262626 0%, #595959 100%);
+  text-align: center;
+}
+
+.left {
+  background-image: url(Pictures/left-button.png);
+  background-repeat: no-repeat;
+  left: 100px;
+  height: 96px;
+  position: absolute;
+  top: 250px;
+  width: 96px;
+}
+
+.right {
+  background-image: url(Pictures/right-button.png);
+  height: 96px;
+  position: absolute;
+  right: 100px;
+  width: 96px;
+  top: 250px;
+}
+
+h1 {
+  color: #fff0cd;
+  font-size: 40px;
+}
+
+.picture {
+  height: 420px;
+  style.opacity: 1;
+}
+
+.thumbnail img {
+  max-height: 80px;
+  margin-top: 20px;
+  padding: 5px;
+}

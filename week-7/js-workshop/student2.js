@@ -4,10 +4,9 @@ function Student() {
   this.objects = {};
   this.addGrade = function(subject, grade) {
     if (!(subject in this.objects)) {
-      this.objects[subject] = [grade];
-    } else {
-      this.objects[subject].push(grade);
+      this.objects[subject] = [];
     }
+    this.objects[subject].push(grade);
   }
   this.getCount = function() {
     var output = {};
@@ -35,6 +34,17 @@ function Student() {
       grade_number += 1;
     }
     return sum / grade_number;
+  }
+  this.getAverage_stupid = function() {
+    var sum = 0;
+    var count = 0;
+    for (var key in this.objects) {
+      this.objects[key].forEach(function(grade) {
+        sum += grade;
+        count += 1;
+      });
+      return sum / count;
+    }
   }
 }
 
