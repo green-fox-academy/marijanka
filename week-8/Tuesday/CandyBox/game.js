@@ -52,9 +52,9 @@ function getSpeed() {
 function candiesNumberGrowing() {
   clearTimeout(timer);
   timer = setInterval(function() {
-  candies += candiesPerSec;
-  currentCandiesNumber.innerHTML = candies;
-  theEnd();
+    candies += candiesPerSec;
+    currentCandiesNumber.innerHTML = candies;
+    theEnd();
   }, 1000);
 }
 
