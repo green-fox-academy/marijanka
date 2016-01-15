@@ -60,7 +60,7 @@ function Game() {
   }
 
   this.theEnd = function() {
-    if (this.candies === 1000) {
+    if (this.candies > 1000) {
       alert('You win!!!!');
     }
   }

@@ -59,7 +59,7 @@ function candiesNumberGrowing() {
 }
 
 function theEnd() {
-  if (candies === 1000) {
+  if (candies > 1000) {
     alert('You win!!!!');
   }
 }
