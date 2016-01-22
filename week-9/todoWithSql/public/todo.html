@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>My TODO application</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<h1>♥♥♥♥♥♥♥♥♥♥Todo♥♥♥♥♥♥♥♥♥♥</h1>
+
+		<table class="table" border="1">
+			<thead>
+				<tr>
+				<th>ID</th>
+				<th>Subject</th>
+				<th>Completed</th>
+				<th></th>
+				</tr>
+			</thead>
+			<tbody id="todolist_body"></tbody>
+			<tfoot>
+				<tr>
+				<td></td>
+				<td>
+					<input type="text" value="" id="new_item">
+				</td>
+				<td></td>
+				<td>
+					<input class = "input" type="button" value="Add">
+				</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<fieldset id ="editform" style="display: none;">
+		<legend>Edit todo item</legend>
+			<p style="color: purple;">♥</p>
+			<p>
+				<label>ID:</label><br>
+				<span id="edit_id"></span>
+			<p>
+				<label>Subject:</label><br>
+				<input type="text" id="edit_subject">
+			</p>
+			<p>
+				<label>Completed:</label><br>
+				<input type="checkbox" id="edit_completed">
+			</p>
+			<p>
+			<input class="saveButton" type="button" value="Save">
+			</p>
+		</fieldset>
+
+		<script type="text/javascript" src="callback.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="todo.js"></script>
+
+	</body>
+</html>

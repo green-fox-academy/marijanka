@@ -11,9 +11,11 @@ var dateObj = new Date();
 var month = dateObj.getUTCMonth() + 1; //months from 1-12
 var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
+var hour = dateObj.getUTCHours();
+var minute = dateObj.getUTCMinutes();
 
 
-var currentDate = '(' + year + '. '+ month + '. ' + day + '.' + ')';
+var currentDate = year + '. '+ month + '. ' + day + '. ' + hour + ': ' + minute;
 
 addItemAndListButton.addEventListener('click', function() {
   addItem();
